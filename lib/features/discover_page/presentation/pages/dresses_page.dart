@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:gem_store_app/features/discover_page/pages/product_detail_page.dart';
-import 'package:gem_store_app/features/forget_password_page/widgets/back_btn.dart';
-import 'package:gem_store_app/features/home_page/widgets/product_detail_card.dart';
+import 'package:gem_store_app/features/discover_page/presentation/pages/product_detail_page.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/back_btn.dart';
+import 'package:gem_store_app/features/home_page/presentation/widgets/product_detail_card.dart';
 
 class DressesPage extends StatefulWidget {
   const DressesPage({super.key});

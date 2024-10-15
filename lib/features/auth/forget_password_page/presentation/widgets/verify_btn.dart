@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/forget_password_page/pages/create_password_page.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/pages/create_password_page.dart';
 
 class VerifyPageBtn extends StatelessWidget {
   final String buttonText;

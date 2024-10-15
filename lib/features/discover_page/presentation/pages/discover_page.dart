@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
 import 'package:gem_store_app/core/common/widgets/appbar.dart';
-import 'package:gem_store_app/features/discover_page/pages/dresses_page.dart';
-import 'package:gem_store_app/features/discover_page/widgets/discover_card.dart';
-import 'package:gem_store_app/features/discover_page/widgets/list_tile.dart';
-import 'package:gem_store_app/features/discover_page/widgets/textfield_filter.dart';
+import 'package:gem_store_app/features/discover_page/presentation/pages/dresses_page.dart';
+import 'package:gem_store_app/features/discover_page/presentation/widgets/discover_card.dart';
+import 'package:gem_store_app/features/discover_page/presentation/widgets/list_tile.dart';
+import 'package:gem_store_app/features/discover_page/presentation/widgets/textfield_filter.dart';
 
 class DiscoverPage extends StatefulWidget {
   const DiscoverPage({super.key});

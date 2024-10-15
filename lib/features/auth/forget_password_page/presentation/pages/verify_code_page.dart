@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/forget_password_page/widgets/back_btn.dart';
-import 'package:gem_store_app/features/forget_password_page/widgets/verify_btn.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/back_btn.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/verify_btn.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/verify_code_box.dart';
 
 class VerifyCodePage extends StatefulWidget {
   const VerifyCodePage({super.key});
@@ -13,74 +14,46 @@ class VerifyCodePage extends StatefulWidget {
 class _VerifyCodePageState extends State<VerifyCodePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(30.0),
+        padding: EdgeInsets.all(30.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const BackBtn(),
-            const Text(
+            BackBtn(),
+            Text(
               'Verification code',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(
+            SizedBox(
               height: 30,
             ),
-            const Text(
+            Text(
               'Please enter the verification code we sent to your email address',
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.w200,
               ),
             ),
-            const SizedBox(
+            SizedBox(
               height: 15,
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 30.0),
+              padding: EdgeInsets.symmetric(vertical: 30.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                      color: AppColors.blackColor,
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                      color: AppColors.blackColor,
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                      color: AppColors.blackColor,
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                      color: AppColors.blackColor,
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
+                  ConfirmationCodeBox(),
+                  ConfirmationCodeBox(),
+                  ConfirmationCodeBox(),
+                  ConfirmationCodeBox(),
                 ],
               ),
             ),
-            const VerifyPageBtn(
+            VerifyPageBtn(
               buttonText: 'Verify me',
             )
           ],

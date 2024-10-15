@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/discover_page/widgets/rating_stars.dart';
+import 'package:gem_store_app/features/discover_page/presentation/widgets/rating_stars.dart';
 
 class ProductDetailCard extends StatefulWidget {
   final String imagePath;

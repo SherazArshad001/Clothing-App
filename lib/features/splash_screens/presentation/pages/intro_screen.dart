@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/sign_up_page/pages/sign_up.dart';
-import 'package:gem_store_app/features/splash_screens/widgets/intro_button.dart';
-import 'package:gem_store_app/features/splash_screens/widgets/intro_content.dart';
-import 'package:gem_store_app/features/splash_screens/widgets/intro_dot.dart';
+import 'package:gem_store_app/features/auth/sign_up_page/presentation/pages/sign_up.dart';
+import 'package:gem_store_app/features/splash_screens/presentation/widgets/intro_button.dart';
+import 'package:gem_store_app/features/splash_screens/presentation/widgets/intro_content.dart';
+import 'package:gem_store_app/features/splash_screens/presentation/widgets/intro_dot.dart';
 
 class AppIntroScreen1 extends StatefulWidget {
   const AppIntroScreen1({super.key});

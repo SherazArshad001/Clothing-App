@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/log_in_page/pages/log_in.dart';
+import 'package:gem_store_app/features/auth/log_in_page/presentation/pages/log_in.dart';
 
 class PasswordSuccessPage extends StatelessWidget {
   const PasswordSuccessPage({super.key});

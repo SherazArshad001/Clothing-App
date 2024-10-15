@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/cart_page/pages/cart_pages.dart';
-import 'package:gem_store_app/features/discover_page/pages/discover_page.dart';
-import 'package:gem_store_app/features/home_page/pages/home_page.dart';
-import 'package:gem_store_app/features/profile_page/pages/profile_page.dart';
+import 'package:gem_store_app/features/cart_page/presentation/pages/cart_pages.dart';
+import 'package:gem_store_app/features/discover_page/presentation/pages/discover_page.dart';
+import 'package:gem_store_app/features/home_page/presentation/pages/home_page.dart';
+import 'package:gem_store_app/features/profile_page/presentation/pages/profile_page.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({super.key});

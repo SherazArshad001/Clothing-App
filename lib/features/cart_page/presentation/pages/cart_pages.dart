@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/widgets/appbar.dart';
-import 'package:gem_store_app/features/cart_page/widgets/cart_provider.dart';
+import 'package:gem_store_app/features/cart_page/presentation/widgets/cart_provider.dart';
 import 'package:provider/provider.dart';
 
 class CartPage extends StatefulWidget {

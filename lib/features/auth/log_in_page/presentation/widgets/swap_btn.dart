@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/forget_password_page/pages/forget_page.dart';
-import 'package:gem_store_app/features/log_in_page/pages/log_in.dart';
-import 'package:gem_store_app/features/sign_up_page/pages/sign_up.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/pages/forget_page.dart';
+import 'package:gem_store_app/features/auth/log_in_page/presentation/pages/log_in.dart';
+import 'package:gem_store_app/features/auth/sign_up_page/presentation/pages/sign_up.dart';
 
 class AuthTextBtn extends StatelessWidget {
   final String? lineText;

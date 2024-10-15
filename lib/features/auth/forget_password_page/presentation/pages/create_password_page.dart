@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/forget_password_page/pages/password_success.dart';
-import 'package:gem_store_app/features/forget_password_page/widgets/back_btn.dart';
-import 'package:gem_store_app/features/sign_up_page/widgets/textfield.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/pages/password_success.dart';
+import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/back_btn.dart';
+import 'package:gem_store_app/features/auth/sign_up_page/presentation/widgets/textfield.dart';
 import 'package:gem_store_app/core/mixin/validator.dart';
 
 class CreatePasswordPage extends StatefulWidget {
