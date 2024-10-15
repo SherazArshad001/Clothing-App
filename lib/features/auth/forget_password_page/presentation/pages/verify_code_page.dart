@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
 import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/back_btn.dart';
 import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/verify_btn.dart';
 import 'package:gem_store_app/features/auth/forget_password_page/presentation/widgets/verify_code_box.dart';
