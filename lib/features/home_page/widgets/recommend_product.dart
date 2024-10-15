@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/common/app_colors/app_colors.dart';
+import '../../../core/common/app_colors/app_colors.dart';
 
 class RecommendProductCard extends StatelessWidget {
   final String recomendProductImgUrl;

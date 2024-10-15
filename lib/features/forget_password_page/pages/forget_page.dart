@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
 import 'package:gem_store_app/core/extensions/validation_ext.dart';
-import 'package:gem_store_app/features/auth/forget_password_page/pages/verify_code_page.dart';
-import 'package:gem_store_app/features/auth/forget_password_page/widgets/back_btn.dart';
-import 'package:gem_store_app/features/auth/sign_up_page/widgets/textfield.dart';
+import 'package:gem_store_app/features/forget_password_page/pages/verify_code_page.dart';
+import 'package:gem_store_app/features/forget_password_page/widgets/back_btn.dart';
+import 'package:gem_store_app/features/sign_up_page/widgets/textfield.dart';
 
 class ForgetPasswordPage extends StatefulWidget {
   const ForgetPasswordPage({super.key});

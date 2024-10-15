@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/auth/cart_page/widgets/cart_provider.dart';
-import 'package:gem_store_app/features/auth/discover_page/pages/dresses_page.dart';
-import 'package:gem_store_app/features/auth/discover_page/widgets/discription_tile.dart';
-import 'package:gem_store_app/features/auth/discover_page/widgets/dress_color.dart';
-import 'package:gem_store_app/features/auth/discover_page/widgets/dress_size_btn.dart';
-import 'package:gem_store_app/features/auth/discover_page/widgets/dress_size_text.dart';
-import 'package:gem_store_app/features/auth/forget_password_page/widgets/back_btn.dart';
+import 'package:gem_store_app/features/cart_page/widgets/cart_provider.dart';
+import 'package:gem_store_app/features/discover_page/pages/dresses_page.dart';
+import 'package:gem_store_app/features/discover_page/widgets/discription_tile.dart';
+import 'package:gem_store_app/features/discover_page/widgets/dress_color.dart';
+import 'package:gem_store_app/features/discover_page/widgets/dress_size_btn.dart';
+import 'package:gem_store_app/features/discover_page/widgets/dress_size_text.dart';
+import 'package:gem_store_app/features/forget_password_page/widgets/back_btn.dart';
 import 'package:provider/provider.dart';
 
 class ProductDetailPage extends StatefulWidget {

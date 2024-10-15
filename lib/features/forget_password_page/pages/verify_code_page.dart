@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/auth/forget_password_page/widgets/back_btn.dart';
-import 'package:gem_store_app/features/auth/forget_password_page/widgets/verify_btn.dart';
+import 'package:gem_store_app/features/forget_password_page/widgets/back_btn.dart';
+import 'package:gem_store_app/features/forget_password_page/widgets/verify_btn.dart';
 
 class VerifyCodePage extends StatefulWidget {
   const VerifyCodePage({super.key});

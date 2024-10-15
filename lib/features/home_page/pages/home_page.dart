@@ -2,13 +2,13 @@
 import 'package:flutter/material.dart';
 
 import 'package:gem_store_app/core/common/widgets/appbar.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/categories.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/product_detail_card.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/home_main_card.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/itemcards.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/recommend_product.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/see_all_btn.dart';
-import 'package:gem_store_app/features/auth/home_page/widgets/two_model_card.dart';
+import 'package:gem_store_app/features/home_page/widgets/categories.dart';
+import 'package:gem_store_app/features/home_page/widgets/product_detail_card.dart';
+import 'package:gem_store_app/features/home_page/widgets/home_main_card.dart';
+import 'package:gem_store_app/features/home_page/widgets/itemcards.dart';
+import 'package:gem_store_app/features/home_page/widgets/recommend_product.dart';
+import 'package:gem_store_app/features/home_page/widgets/see_all_btn.dart';
+import 'package:gem_store_app/features/home_page/widgets/two_model_card.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

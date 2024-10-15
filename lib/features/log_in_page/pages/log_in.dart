@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/mixin/validator.dart';
-import 'package:gem_store_app/features/auth/log_in_page/widgets/log_sign_option.dart';
-import 'package:gem_store_app/features/auth/log_in_page/widgets/swap_btn.dart';
-import 'package:gem_store_app/features/auth/sign_up_page/widgets/log_sign_btn.dart';
-import 'package:gem_store_app/features/auth/sign_up_page/widgets/textfield.dart';
+import 'package:gem_store_app/features/log_in_page/widgets/log_sign_option.dart';
+import 'package:gem_store_app/features/log_in_page/widgets/swap_btn.dart';
+import 'package:gem_store_app/features/sign_up_page/widgets/log_sign_btn.dart';
+import 'package:gem_store_app/features/sign_up_page/widgets/textfield.dart';
 
 class LogInPage extends StatefulWidget {
   const LogInPage({super.key});

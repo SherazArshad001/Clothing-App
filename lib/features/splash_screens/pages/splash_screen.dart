@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/auth/splash_screens/pages/intro_screen.dart';
+import 'package:gem_store_app/features/splash_screens/pages/intro_screen.dart';
 
 class AppIntroScreen extends StatelessWidget {
   const AppIntroScreen({super.key});
