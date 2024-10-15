@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gem_store_app/core/bottom_navbar/bottom_navbar.dart';
 import 'package:gem_store_app/core/common/app_colors/app_colors.dart';
-import 'package:gem_store_app/features/auth/forget_password_page/presentation/pages/verify_code_page.dart';
 import 'package:gem_store_app/features/cart_page/presentation/widgets/cart_provider.dart';
+import 'package:gem_store_app/features/splash_screens/presentation/pages/splash_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: AppColors.backgroundColor,
       ),
-      home: const VerifyCodePage(),
+      home: const AppIntroScreen(),
     );
   }
 }
